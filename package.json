@@ -1,0 +1,30 @@
+{
+  "name": "mafia",
+  "version": "1.0.0",
+  "description": "mafia game implementation on Alexa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judyyang40/mafiaGame.git"
+  },
+  "keywords": [
+    "alexa",
+    "echo",
+    "mafia",
+    "game"
+  ],
+  "author": "Judy Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judyyang40/mafiaGame/issues"
+  },
+  "homepage": "https://github.com/judyyang40/mafiaGame#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "express": "latest",
+    "body-parser": "latest"
+  }
+}
