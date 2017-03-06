@@ -15,6 +15,11 @@ router.get('/test', function(req, res) {
 	res.json({ message: 'hooray! testing works!' });
 })
 
+router.get('/welcome', function(req, res) {
+	var options = {root: __dirname + '/views/'};
+	res.sendFile('join.html');
+}) 
+
 //register routes
 app.use('/api', router);
 //start server
