@@ -17,7 +17,7 @@ router.get('/test', function(req, res) {
 
 router.get('/welcome', function(req, res) {
 	var options = {root: __dirname + '/views/'};
-	res.sendFile('join.html');
+	res.sendFile('join.html', options);
 }) 
 
 //register routes
