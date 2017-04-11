@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 var port = process.env.PORT || 8090;
-var player = 3;
+//var player = 3;
 
 //routes for API
 var router = express.Router();
