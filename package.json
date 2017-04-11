@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/judyyang40/mafiaGame#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.7",
     "express": "latest",
     "body-parser": "latest"
   }
