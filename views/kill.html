@@ -10,12 +10,14 @@
 <button id="kill2">kill!</button>
 <script>
 	$("#kill2").click( function(){
-		$.ajax({
-		    url: '/killed',
-		    dataType: 'json',
-		    method: 'POST',
-		    data: { "killed" : 2 }
-		});
+		$.post("/api/killed",
+			{
+				killed: 4
+			}, 
+			function(data,status){
+				window.location = "welcome?p="+data.nextplayer;
+			}
+		);
 	})
 </script>
 </body>
